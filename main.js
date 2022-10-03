@@ -84,3 +84,22 @@ let hour1 = 10;
 if (hour1 >= 6 && hour1 < 12) {
   console.log("hayrli tong");
 } else console.log("hayrli tun");
+
+//switch and case
+let word = "pencil";
+switch (word) {
+  case "pencil":
+    console.log("qalam");
+    break;
+
+  case "pen":
+    console.log(ruchka);
+    break;
+
+  default:
+    console.log("nomalum so'z");
+}
+//loops
+for (let i = 0; i < 5; i++) {
+  console.log("salom");
+}
