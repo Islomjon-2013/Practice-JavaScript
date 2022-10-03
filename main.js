@@ -103,3 +103,24 @@ switch (word) {
 for (let i = 0; i < 5; i++) {
   console.log("salom");
 }
+//toq sonlarni chiqarish un.
+for (let i = 1; i < 10; i++) {
+  if (i % 2 !== 0) console.log(i);
+}
+let i = 0;
+while (i <= 5) {
+  if (i % 2 !== 0) console.log(i);
+  i++;
+}
+let j = 0;
+do {
+  if (j % 2 !== 0) console.log(j);
+  j++;
+} while (j <= 5);
+//break va continue
+//let i=0;
+while (i <= 10) {
+  if (i === 7) break;
+  console.log(i);
+  i++;
+}
