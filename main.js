@@ -32,7 +32,9 @@ console.log(squareResult);
 //arifmetik;
 /*let x = 2;
 y = 3;
-console.log(x + y);
+console.log(x + y);/'
+/'
+;'/'/
 console.log(x - y);
 console.log(x * y);
 console.log(x / y);
@@ -56,7 +58,7 @@ let result = points > 60 ? "passed" : "fail";
 console.log(result);
 
 //logic operators
-//&&  va || yoke   !emas
+//&&  va || yoke   !emas[';[/'/']]
 //&&
 console.log(true && true);
 let hour = 9;
@@ -69,3 +71,16 @@ console.log(true || false);
 // !
 let isOfficeClosed = !isOfficeOpen;
 console.log(isOfficeClosed);
+let color1 = "qora";
+let color2 = "oq";
+console.log(color1);
+console.log(color2);
+let box = color1;
+color1 = color2;
+color2 = box;
+console.log(color1, color2);
+//if and else
+let hour1 = 10;
+if (hour1 >= 6 && hour1 < 12) {
+  console.log("hayrli tong");
+} else console.log("hayrli tun");
