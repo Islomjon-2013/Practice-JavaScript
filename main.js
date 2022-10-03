@@ -124,3 +124,28 @@ while (i <= 10) {
   console.log(i);
   i++;
 }
+
+// fon in and for of loops
+const person = {
+  name3: "hurshida",
+  hobbies: "football",
+};
+for (let key in person);
+console.log(person.name3);
+const animal = ["wolf", "rabbit", "bear"];
+for (let index in animal) console.log(index, animal[index]);
+//fizzBuzz
+function fizzBuzz(input) {
+  if (typeof input !== "number") return "son emas";
+  if (input % 3 === 0) return "fizz";
+  if (input % 5 === 0) return "Buzz";
+  if (input % 3 === 0 && input % 5 === 0) return "fizzBuzz";
+  return "input";
+}
+let results = fizzBuzz(15);
+console.log(results);
+//agar input 3 ga bo'linsa fizz qaytsin
+//agar input 5ga bo'linsa buzz qaytsin
+//agar input 3 va 5 ga bo'linsa fizzbuzz qaytsin
+//agar input 3 va 5ga bolinmasa o'sha sonni o'zi qaytsin
+//agar input son bolmasa son emas deb qaytsin
