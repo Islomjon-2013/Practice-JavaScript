@@ -149,3 +149,16 @@ console.log(results);
 //agar input 3 va 5 ga bo'linsa fizzbuzz qaytsin
 //agar input 3 va 5ga bolinmasa o'sha sonni o'zi qaytsin
 //agar input son bolmasa son emas deb qaytsin
+
+//practice
+function gitMax(a, b) {
+  if (a > b) return a;
+  else return b;
+}
+let number = gitMax(2, 4);
+console.log(number);
+
+function isLandscape(height, width) {
+  return width > height;
+}
+console.log(isLandscape(20, 20));
