@@ -162,3 +162,52 @@ function isLandscape(height, width) {
   return width > height;
 }
 console.log(isLandscape(20, 20));
+//obyektdan clone olish
+
+const circle = {
+  radius: 1,
+  draw() {
+    console.log("doira");
+  },
+};
+//birinchi usul
+//const clone = {};
+//for (let key in circle) clone[(key = circle[key])];
+
+//ikkinchi usul
+//const clone = Object.assign({}, circle);
+//console.log(clone);
+//3 -usul
+const clone = { ...circle };
+console.log(clone);
+//math va string obyektlari
+let greeting = "Assalomu alaykum";
+console.log(greeting.length);
+console.log([2]);
+console.log(greeting.includes("al"));
+console.log(greeting.startsWith("Ass"));
+console.log(greeting.indexOf("kum"));
+console.log(greeting.replace("salom", "salam"));
+console.log(greeting.trim());
+console.log(greeting.split(""));
+//arrays
+
+let raqam = [3, 4];
+raqam.push(5, 6);
+raqam.unshift(1, 2);
+raqam.splice(2, 0, 2);
+raqam.indexOf(3);
+console.log(raqam);
+console.log(raqam.indexOf(4));
+//elimentni o'chirish
+raqam.pop();
+raqam.shift();
+console.log(raqam);
+//to'plamlarni birlashtirish
+let first = [1, 2, 3];
+let second = [4, 5, 6];
+let combaned = first.concat(second);
+console.log(combaned);
+//to'olamni ajratish
+let sliced = combaned.slice(2, 4);
+console.log(sliced);
